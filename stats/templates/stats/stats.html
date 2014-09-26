@@ -1,2 +1,15 @@
-average year built: {{ stats_dict.year_built__avg }}<br/>
-average gross floor area: {{ stats_dict.gross_floor_area__avg }}<br/>
+<h3>summary stats</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>average year built</th>
+            <th>average gross floor area</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{ stats_dict.year_built__avg }}</td>
+            <td>{{ stats_dict.gross_floor_area__avg }}</td>
+        </tr>
+    </tbody>
+</table>
