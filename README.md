@@ -19,7 +19,7 @@ INSTALLED_APPS = (
 add `stats` to your url routes:
 
 ```py
- url(r'stats/', include('stats.urls', app_name='stats')),
+url(r'stats/', include('stats.urls', app_name='stats')),
 ```
 
 
