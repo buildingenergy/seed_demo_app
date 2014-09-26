@@ -1,4 +1,4 @@
-# demo stats app
+# demo-stats-app with Django
 
 install the **stats** app
 
