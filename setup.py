@@ -17,6 +17,10 @@ setup(
     license='Apache2',
     packages=find_packages(),
     include_package_data=True,
+    install_requires=[
+         'django<1.7',
+         'django-annoying',
+    ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
