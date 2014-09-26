@@ -1,15 +1,23 @@
 {% extends "seed/base.html" %}
 
 {% block content %}
-<h3>summary stats</h3>
+<h3>summary stats: gross floor area (ft2)</h3>
 <table class="table">
         <tr>
-            <td>average year built</td>
-            <td>{{ stats_dict.year_built__avg }}</td>
+            <td>average</td>
+            <td>{{ stats_dict.gross_floor_area__avg|floatformat:"0" }}</td>
         </tr>
         <tr>
-            <td>average gross floor area</td>
-            <td>{{ stats_dict.gross_floor_area__avg }}</td>
+            <td>min</td>
+            <td>{{ stats_dict.gross_floor_area__min|floatformat:"0" }}</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>{{ stats_dict.gross_floor_area__max|floatformat:"0" }}</td>
+        </tr>
+        <tr>
+            <td>standard deviation</td>
+            <td>{{ stats_dict.gross_floor_area__max|floatformat:"0" }}</td>
         </tr>
 </table>
 {% endblock %}
