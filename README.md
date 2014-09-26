@@ -24,3 +24,5 @@ go to `/stats/` in your browser...
 
 
 that's it!
+
+![table](screenshots/1.png)
