@@ -11,15 +11,6 @@ add `stats` to your Django setting's `INSTALLED_APPS`:
 ```py
 
 INSTALLED_APPS = (
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.flatpages',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'django.contrib.sites',
-    'django.contrib.humanize',
-    'django.contrib.admin',
     # ...
     'stats',
 )
