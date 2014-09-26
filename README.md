@@ -10,10 +10,7 @@ add `stats` to your Django setting's `INSTALLED_APPS`:
 
 ```py
 
-INSTALLED_APPS = (
-    # ...
-    'stats',
-)
+INSTALLED_APPS += ('stats',)
 ```
 
 add `stats` to your url routes:
