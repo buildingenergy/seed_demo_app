@@ -25,4 +25,4 @@ go to `/stats/` in your browser...
 
 that's it!
 
-[screenshots/1.png]
+![table](screenshots/1.png)
